@@ -1,6 +1,6 @@
 # 惜文墨色
 
-- [JS 中的 Shebang/Hashbang](https://mebtte.com/shebang_in_js) `<sup><sub>`2023-12-13 `</sub></sup>`
+- [JS 中的 Shebang/Hashbang](https://cyzyzg.github.io/shebang_in_js) `<sup><sub>`2023-12-13 `</sub></sup>`
 - [我的自建 NAS](https://mebtte.com/my_nas) `<sup><sub>`2023-12-12 `</sub></sup>`
 - [React 组件中复用代码的方式](https://mebtte.com/reuse_code_between_react_components) `<sup><sub>`2023-12-10 `</sub></sup>`
 - [负载均衡下的前端资源更新策略](https://mebtte.com/update_strategy_of_front_end_assets_under_the_load_balancing) `<sup><sub>`2023-09-20 `</sub></sup>`
@@ -20,7 +20,7 @@
 - [useCallback 的误区](https://github.com/CYZYZG/cyzyzg.github.io/tree/master/articles/use_callback_misunderstanding) `<sup><sub>`2020-10-30 `</sub></sup>`
 - [在 React 中使用事件分离状态](https://github.com/CYZYZG/cyzyzg.github.io/tree/gh-pages/split_react_state_by_event) `<sup><sub>`2020-01-15 `</sub></sup>`
 - [如何处理 RESTFUL 数据异常导致的前端错误](https://github.com/CYZYZG/cyzyzg.github.io/tree/master/articles/handle_restful_api_error) `<sup><sub>`2019-05-30 `</sub></sup>`
-- [基于 Node.js 的 WebFont 解决方案](https://cyzyzg.github.io/articles/web_font_solution_by_node) `<sup><sub>`2019-03-10 `</sub></sup>`
+- [基于 Node.js 的 WebFont 解决方案](https://cyzyzg.github.io/web_font_solution_by_node) `<sup><sub>`2019-03-10 `</sub></sup>`
 - [图像处理100问](https://github.com/CYZYZG/cyzyzg.github.io/imageprocessing100Wen) `<sup><sub>`2020-01-10 `</sub></sup>`
 
 ## 依赖 & 初始化
