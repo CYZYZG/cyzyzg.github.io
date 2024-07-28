@@ -4,7 +4,6 @@ publish_time:'2020-10-01'
 updates:
 hidden: false
 ---
-## OpenCV————图像处理100问
 
 ### 1.通道交换
 
