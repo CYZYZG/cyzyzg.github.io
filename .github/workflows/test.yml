@@ -20,7 +20,7 @@ jobs:
       - run: echo 'mebtte.com' > build/CNAME
 
       - env:
-          TOKEN: ${{secrets.TOKEN}}
+          TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: |
           cd build
           git init
