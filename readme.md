@@ -13,15 +13,15 @@
 - [React Fragment 添加事件监听?](https://mebtte.com/react_fragment_with_event_listener) `<sup><sub>`2022-06-26 `</sub></sup>`
 - [如何在 React 解决竞态条件](https://mebtte.com/how_to_resolve_race_condition_in_react) `<sup><sub>`2022-06-19 `</sub></sup>`
 - [使用脚本备份 Github 仓库](https://mebtte.com/use_script_to_backup_github_repository) `<sup><sub>`2022-03-06 `</sub></sup>`
-- [高性能 React 应用的几个小技巧](https://mebtte.com/tips_of_high_performance_react_app) `<sup><sub>`2022-03-03 `</sub></sup>`
-- [复习 DOM 事件](https://cyzyzg.github.io/review_dom_event) `<sup><sub>`2021-11-19 `</sub></sup>`
+- [高性能 React 应用的几个小技巧](https://mebtte.com/articles/tips_of_high_performance_react_app) `<sup><sub>`2022-03-03 `</sub></sup>`
+- [复习 DOM 事件](https://cyzyzg.github.io/articles/review_dom_event) `<sup><sub>`2021-11-19 `</sub></sup>`
 - [我的博客架构变迁之路](https://github.com/CYZYZG/cyzyzg.github.io/migration_of_my_blog_structure) `<sup><sub>`2021-05-10 `</sub></sup>`
 - [浏览器和 JavaScript 的一些新特性](articles/new_features_of_browser_and_js_202101) `<sup><sub>`2021-01-25 `</sub></sup>`
 - [useCallback 的误区](https://github.com/CYZYZG/cyzyzg.github.io/tree/master/articles/use_callback_misunderstanding) `<sup><sub>`2020-10-30 `</sub></sup>`
 - [在 React 中使用事件分离状态](https://github.com/CYZYZG/cyzyzg.github.io/tree/gh-pages/split_react_state_by_event) `<sup><sub>`2020-01-15 `</sub></sup>`
 - [如何处理 RESTFUL 数据异常导致的前端错误](https://github.com/CYZYZG/cyzyzg.github.io/tree/master/articles/handle_restful_api_error) `<sup><sub>`2019-05-30 `</sub></sup>`
 - [基于 Node.js 的 WebFont 解决方案](https://cyzyzg.github.io/web_font_solution_by_node) `<sup><sub>`2019-03-10 `</sub></sup>`
-- [图像处理100问](https://github.com/CYZYZG/cyzyzg.github.io/imageprocessing100Wen) `<sup><sub>`2020-01-10 `</sub></sup>`
+- [图像处理100问](https://cyzyzg.github.io/imageprocessing100Wen.html) `<sup><sub>`2020-01-10 `</sub></sup>`
 
 ## 依赖 & 初始化
 
