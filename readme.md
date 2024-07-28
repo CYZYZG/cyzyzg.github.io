@@ -18,9 +18,9 @@
 - [我的博客架构变迁之路](https://mebtte.com/migration_of_my_blog_structure) `<sup><sub>`2021-05-10 `</sub></sup>`
 - [浏览器和 JavaScript 的一些新特性](https://mebtte.com/new_features_of_browser_and_js_202101) `<sup><sub>`2021-01-25 `</sub></sup>`
 - [useCallback 的误区](https://mebtte.com/use_callback_misunderstanding) `<sup><sub>`2020-10-30 `</sub></sup>`
-- [在 React 中使用事件分离状态](https://mebtte.com/split_react_state_by_event) `<sup><sub>`2020-01-15 `</sub></sup>`
-- [如何处理 RESTFUL 数据异常导致的前端错误](https://mebtte.com/handle_restful_api_error) `<sup><sub>`2019-05-30 `</sub></sup>`
-- [基于 Node.js 的 WebFont 解决方案](https://mebtte.com/web_font_solution_by_node) `<sup><sub>`2019-03-10 `</sub></sup>`
+- [在 React 中使用事件分离状态](https://github.com/CYZYZG/cyzyzg.github.io/tree/gh-pages/split_react_state_by_event) `<sup><sub>`2020-01-15 `</sub></sup>`
+- [如何处理 RESTFUL 数据异常导致的前端错误](https://github.com/CYZYZG/cyzyzg.github.io/tree/master/articles/handle_restful_api_error) `<sup><sub>`2019-05-30 `</sub></sup>`
+- [基于 Node.js 的 WebFont 解决方案](https://cyzyzg.github.io/web_font_solution_by_node) `<sup><sub>`2019-03-10 `</sub></sup>`
 - [图像处理100问](https://cyzyzg.github.io/imageProcessing100Wen) `<sup><sub>`2020-01-10 `</sub></sup>`
 
 ## 依赖 & 初始化
