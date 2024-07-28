@@ -1,33 +1,28 @@
-name: build and deploy to gh-pages
+name: build and deploy gh-pages
 on:
   push:
-    branches:
-      - master
+    branches: [main, dev]
+
 jobs:
-  build_and_deploy_to_gh_pages:
+  build_and_deploy:
+    name: build and deploy gh-pages
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@main
 
-      - uses: actions/setup-node@main
+      - name: use node.js@14
+        uses: actions/setup-node@main
         with:
-          node-version: 16
+          node-version: 14
 
-      - run: |
-          npm ci
-          npm run build
-
-      - run: echo 'mebtte.com' > build/CNAME
-
-      - env:
-          TOKEN: ${{secrets.TOKEN}}
+      - name: build gh-pages
         run: |
-          cd build
-          git init
-          git config --local user.name mebtte
-          git config --local user.email hi@mebtte.com
-          git remote add origin https://$TOKEN@github.com/$GITHUB_REPOSITORY.git
-          git checkout -b gh-pages
-          git add --all
-          git commit -m "deploy gh-pages"
-          git push origin gh-pages -f
+          npm install
+          npm run build
+      
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: build
