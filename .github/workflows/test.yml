@@ -24,8 +24,8 @@ jobs:
         run: |
           cd build
           git init
-          git config --local user.name mebtte
-          git config --local user.email hi@mebtte.com
+          git config --local user.name xiwen
+          git config --local user.email lzig000@163.com
           git remote add origin https://$TOKEN@github.com/$GITHUB_REPOSITORY.git
           git checkout -b gh-pages
           git add --all
