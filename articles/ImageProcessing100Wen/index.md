@@ -1,6 +1,6 @@
 ---
 title: '图像处理100问'
-publish_time:'2020-10-01'
+publish_time: '2020-10-01'
 updates:
 hidden: false
 ---
