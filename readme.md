@@ -1,4 +1,4 @@
-# 动物的光合作用
+# 惜文墨色
 
 - [JS 中的 Shebang/Hashbang](https://mebtte.com/shebang_in_js) <sup><sub>2023-12-13</sub></sup>
 - [我的自建 NAS](https://mebtte.com/my_nas) <sup><sub>2023-12-12</sub></sup>
