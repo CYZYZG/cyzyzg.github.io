@@ -1,3 +1,3 @@
 export default {
-  origin: 'https://github.com/CYZYZG/cyzyzg.github.io',
+  origin: 'https://cyzyzg.github.io',
 };

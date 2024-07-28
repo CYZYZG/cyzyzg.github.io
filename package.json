@@ -5,7 +5,7 @@
   "author": {
     "name": "Xiwen",
     "email": "lzig000@163.com",
-    "url": "https://github.com/CYZYZG/cyzyzg.github.io"
+    "url": "https://cyzyzg.github.io"
   },
   "scripts": {
     "watch": "node scripts/watch.js",
