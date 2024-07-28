@@ -1,3 +1,3 @@
 export default {
-  origin: 'https://mebtte.com',
+  origin: 'https://github.com/CYZYZG/cyzyzg.github.io',
 };

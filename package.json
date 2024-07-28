@@ -1,11 +1,11 @@
 {
-  "name": "animal-photosynthesis",
+  "name": "Xiwen's Blog",
   "private": true,
   "type": "module",
   "author": {
-    "name": "mebtte",
-    "email": "hi@mebtte.com",
-    "url": "https://mebtte.com"
+    "name": "Xiwen",
+    "email": "lzig000@163.com",
+    "url": "https://github.com/CYZYZG/cyzyzg.github.io"
   },
   "scripts": {
     "watch": "node scripts/watch.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mebtte/animal-photosynthesis.git"
+    "url": "git+https://github.com/CYZYZG/cyzyzg.github.io.git"
   },
   "devDependencies": {
     "cheerio": "^1.0.0-rc.6",

@@ -1,8 +1,8 @@
 export default {
   title: '惜文墨色',
-  description: 'MEBTTE 的个人博客.',
-  origin: 'https://mebtte.com',
+  description: 'Xiwen 的个人博客.',
+  origin: 'https://github.com/CYZYZG/cyzyzg.github.io',
   public_path: '',
   github_repository:
-    'https://github.com/mebtte/animal-photosynthesis',
+    'https://github.com/CYZYZG/cyzyzg.github.io',
 };
