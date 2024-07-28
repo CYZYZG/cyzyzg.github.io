@@ -21,7 +21,7 @@
 - [在 React 中使用事件分离状态](https://mebtte.com/split_react_state_by_event) `<sup><sub>`2020-01-15 `</sub></sup>`
 - [如何处理 RESTFUL 数据异常导致的前端错误](https://mebtte.com/handle_restful_api_error) `<sup><sub>`2019-05-30 `</sub></sup>`
 - [基于 Node.js 的 WebFont 解决方案](https://mebtte.com/web_font_solution_by_node) `<sup><sub>`2019-03-10 `</sub></sup>`
-- [图像处理100问](articles/ImageProcessing100Wen) `<sup><sub>`2020-01-10 `</sub></sup>`
+- [图像处理100问](https://cyzyzg.github.io/imageProcessing100Wen) `<sup><sub>`2020-01-10 `</sub></sup>`
 
 ## 依赖 & 初始化
 
