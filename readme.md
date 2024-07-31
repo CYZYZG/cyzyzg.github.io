@@ -12,6 +12,7 @@
 ## 依赖 & 初始化
 
 - [Deno](https://deno.com)
+- [mebtte](https://github.com/mebtte/animal-photosynthesis)
 
 ```sh
 git config --local core.hooksPath .githooks
