@@ -42,7 +42,7 @@ utils是各种软件工程中常见的文件夹，其中包含了各类常用工
 视觉任务特殊的功能函数，例如检测中用到的 roi_align, roi_pool，boxes的生成，以及focal_loss实现，都在这里边有实现。
 ### transforms
 数据增强库，transforms是pytorch自带的图像预处理、增强、转换工具，可以满足日常的需求。但无法满足各类复杂场景，因此后续会介绍更强大的、更通用的、使用人数更多的数据增强库——Albumentations。
-### 2.核心数据结构——Tensor
+## 2.核心数据结构——Tensor
 在pytorch中，有两个张量的相关概念极其容易混淆，分别是**torch.Tensor**和**torch.tensor**。其实，通过命名规范，可知道torch.Tensor是Python的一个类, torch.tensor是Python的一个函数。通常我们调用torch.tensor进行创建张量，而不直接调用torch.Tensor类进行创建。
 **torch.tensor：**pytorch的一个函数，用于将数据变为张量形式的数据，例如list, tuple, NumPy ndarray, scalar等。
 ### 张量的作用
@@ -66,7 +66,7 @@ Tensor主要有以下八个**主要属性**，data，dtype，shape，device，gr
 - device: tensor所在的设备，cpu或cuda;
 - grad，grad_fn，is_leaf和requires_grad就与Variable一样，都是梯度计算中所用到的。
 张量的属性还有很多，大家可以通过debug功能进行查看
-### 3. 张量的相关函数
+## 3. 张量的相关函数
 里面有上百个函数，这里只挑高频使用的进行记录，其他函数可参考[Pytorch官方文档](https://pytorch.org/docs/stable/torch.html)
 ### 直接创建
 #### torch.tensor
@@ -354,7 +354,7 @@ dim=0, 所以行号跟着index的元素走。其它跟index的索引走。
 第三步：找到index的第三个元素index[0, 2]是2， 那么把src[0, 2]（是3）放到input[2, 2]
 第四步：找到index的第四个元素index[0, 3]是0， 那么把src[0, 3]（是4）放到input[0, 3]
 #### 案例2：
-```
+```python
 >>> src = torch.arange(1, 11).reshape((2, 5))
 >>> src
 tensor([[ 1,  2,  3,  4,  5],
@@ -404,7 +404,7 @@ tensor([[1., 0., 0.],
 | [`set_rng_state`](https://pytorch.org/docs/stable/generated/torch.set_rng_state.html#torch.set_rng_state) | 设定随机数生成器状态。这两怎么用暂时未知。Sets the random number generator state. |
 
 以上均是设置cpu上的张量随机种子，在cuda上是另外一套随机种子，如torch.cuda.manual_seed_all(seed)， 这些到cuda模块再进行介绍，这里只需要知道cpu和cuda上需要分别设置随机种子。
-### 4.自动求导核心——计算图
+## 4.自动求导核心——计算图
 在学习自动求导系统之前，需要了解计算图的概念。计算图（Computational Graphs）是一种描述运算的“语言”，它由节点(Node)和边(Edge)构成。
 ### 计算图
 根据[官网](https://pytorch.org/docs/stable/export.ir_spec.html#graph)介绍，节点表示数据和计算操作，边仅表示数据流向
@@ -493,7 +493,7 @@ print("grad_fn:\n", w.grad_fn, x.grad_fn, a.grad_fn, b.grad_fn, y.grad_fn)
 1. 高效性：优化计算图，提高运算效率（但在gpu时代，这一点对于初学者而言可忽略不计）
 缺点：
 1. 晦涩性：需要学习 seesion, placeholder等概念，调试困难
-### 5.自动微分
+## 5.自动微分
 了解计算图后，我们可以开始学习autograd。
 以上上图为例，在进行h2h、i2h、next_h、loss的计算过程中，逐步搭建计算图，同时针对每一个变量（tensor）都存储计算梯度所必备的grad_fn，便于自动求导系统使用。当计算到根节点后，在根节点调用.backward()函数，即可自动反向传播计算计算图中所有节点的梯度。这就是pytorch自动求导机制，其中涉及张量类、计算图、grad_fn、链式求导法则等基础概念。
 ### autograd 的使用
