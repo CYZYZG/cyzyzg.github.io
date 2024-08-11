@@ -3,40 +3,42 @@
 
 <head>
   <%- include('../common/head.ejs') %>
-  <%- include('../common/global_style.ejs') %>
+    <%- include('../common/global_style.ejs') %>
 
-  <title><%= title %> - <%= config.title %></title>
-  <meta name="description" content="<%= description %>..." />
-  <meta property="og:description" content="<%= description %>..." />
+      <title>
+        <%= title %> - <%= config.title %>
+      </title>
+      <meta name="description" content="<%= description %>..." />
+      <meta property="og:description" content="<%= description %>..." />
 
-  <link rel="preload" href="/<%= articleContentFontPath %>" as="font" crossOrigin="anonymous" />
-  <style>
-    @font-face {
-      font-family: article_font_<%= id %>;
-      src: url(/<%= articleContentFontPath %>);
-    }
-    article {
-      font-family: article_font_<%= id %>;
-    }
-  </style>
-  
-  <link rel="stylesheet" href="/prism.css" />
+      <link rel="preload" href="/<%= articleContentFontPath %>" as="font" crossOrigin="anonymous" />
+      <style>
+        @font-face {
+          font-family: article_font_<%=id %>;
+          src: url(/<%= articleContentFontPath %>);
+        }
+
+        article {
+          font-family: article_font_<%=id %>;
+        }
+      </style>
+
+      <link rel="stylesheet" href="/prism.css" />
 </head>
 
 <body>
   <%- include('../common/header.ejs', { reverse: true }) %>
-  <article>
-    <%- include('./article_header.ejs') %>
-    <%- include('./article_content.ejs') %>
-    <%- updates.length ? include('./article_updates.ejs') : null %>
-  </article>
-  <% if (!hidden) { %>
-    <%- include('./article_action.ejs') %>
-  <% } %>
-  <%- include('./article_ads.ejs') %>
-  <%- include('../common/footer.ejs') %>
-  <script src="/prism.js"></script>
-  <script src="/firacode.js" async defer></script>
+    <article>
+      <%- include('./article_header.ejs') %>
+        <%- include('./article_content.ejs') %>
+          <%- updates.length ? include('./article_updates.ejs') : null %>
+    </article>
+    <% if (!hidden) { %>
+      <%- include('./article_action.ejs') %>
+        <% } %>
+          <%- include('../common/footer.ejs') %>
+            <script src="/prism.js"></script>
+            <script src="/firacode.js" async defer></script>
 </body>
 
 </html>
