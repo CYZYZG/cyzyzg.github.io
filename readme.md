@@ -8,7 +8,7 @@
 - [使用脚本备份 Github 仓库](https://cyzyzg.github.io/use_script_to_backup_github_repository) `<sup><sub>`2022-03-06 `</sub></sup>`
 - [我的博客架构变迁之路](https://cyzyzg.github.io/migration_of_my_blog_structure) `<sup><sub>`2021-05-10 `</sub></sup>`
 - [图像处理100问](https://cyzyzg.github.io/imageprocessing100Wen) `<sup><sub>`2020-01-10 `</sub></sup>`
-- [图像处理100问](https://cyzyzg.github.io/Pytorch_learning) `<sup><sub>`2024-08-11 `</sub></sup>`
+- [Pytroch 学习](https://cyzyzg.github.io/Pytorch_learning) `<sup><sub>`2024-08-11 `</sub></sup>`
 
 ## 依赖 & 初始化
 
