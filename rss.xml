@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  version="2.0"
+>
+  <channel>
+    <title>
+      <![CDATA[惜文墨色]]>
+    </title>
+    <description>
+      <![CDATA[Xiwen 的个人博客.]]>
+    </description>
+    <link>https://cyzyzg.github.io/</link>
+    <lastBuildDate>2024-08-14T13:50:23.649Z</lastBuildDate>
+    
+      <item>
+        <title>
+          <![CDATA[Pytorch学习笔记]]>
+        </title>
+        <description>
+          <![CDATA[先前只是使用Pytorch，用到哪查到哪，没有系统的学习过，后续计划系统的学习一下，总体学习框架基于[《Pytorch实用教程》](https://github.com/TingsongYu/PyTorch-Tutorial-2nd)  - [Pytorch核心模块](https://cyzyzg....]]>
+        </description>
+        <link>https://cyzyzg.github.io//Pytorch_learning</link>
+        <guid isPermaLink="false">Pytorch_learning</guid>
+        <pubDate>2024-08-11T00:00:00.000Z</pubDate>
+      </item>
+    
+      <item>
+        <title>
+          <![CDATA[我的自建 NAS]]>
+        </title>
+        <description>
+          <![CDATA[折腾 NAS 也差不多两年的时间了, 一开始的 [Mac Mini + 硬盘柜的方案](/remote_accessible_nas_by_mac_mini), 到后来直接购买成品 NAS, 再到现在的小主机 + 外接硬盘的方案. 小主机 + 外接硬盘的方案已经稳定运行半年多了, 目前体验还可以. ...]]>
+        </description>
+        <link>https://cyzyzg.github.io//my_nas</link>
+        <guid isPermaLink="false">my_nas</guid>
+        <pubDate>2023-12-12T00:00:00.000Z</pubDate>
+      </item>
+    
+      <item>
+        <title>
+          <![CDATA[负载均衡下的前端资源更新策略]]>
+        </title>
+        <description>
+          <![CDATA[我们的一些前端页面偶尔会有用户反馈页面空白, 稍等一会刷新就正常了. 奇怪的是我们在日志系统并没有发现可能导致页面空白的报错, 所以我们一度以为是用户的网络问题.  直到有一次我们内部人员也遇到了这个问题, 我们马上封锁现场进行排查, 结果发现是某个 JS 文件 `404`, 导致页面初始化失败从而...]]>
+        </description>
+        <link>https://cyzyzg.github.io//update_strategy_of_front_end_assets_under_the_load_balancing</link>
+        <guid isPermaLink="false">update_strategy_of_front_end_assets_under_the_load_balancing</guid>
+        <pubDate>2023-09-20T00:00:00.000Z</pubDate>
+      </item>
+    
+      <item>
+        <title>
+          <![CDATA[Excalidraw 支持自定义字体]]>
+        </title>
+        <description>
+          <![CDATA[![](./excalidraw.png)  [Excalidraw](https://excalidraw.com) 是一款开源的画板工具, 可以用来绘制带有手写风格的图. 虽然 Excalidraw 本身支持多语言, 但是其手写风格的字体只支持英文, 其他语言会回退到普通字体.  ![非英语会回...]]>
+        </description>
+        <link>https://cyzyzg.github.io//excalidraw_with_custom_font</link>
+        <guid isPermaLink="false">excalidraw_with_custom_font</guid>
+        <pubDate>2023-07-24T00:00:00.000Z</pubDate>
+      </item>
+    
+      <item>
+        <title>
+          <![CDATA[我用 Docker 部署的一些服务]]>
+        </title>
+        <description>
+          <![CDATA[前段时间开始折腾 NAS, 或者说 Home server, 试了很多方案, 最后采用了 Ubuntu Server + Docker 的方式, 下面是我用 Docker 部署的一些服务.  ## Portainer  Docker 在 CLI 的情况下使用, 命令和参数经常需要查文档. [Port...]]>
+        </description>
+        <link>https://cyzyzg.github.io//my_services_deployed_by_docker</link>
+        <guid isPermaLink="false">my_services_deployed_by_docker</guid>
+        <pubDate>2023-07-05T00:00:00.000Z</pubDate>
+      </item>
+    
+      <item>
+        <title>
+          <![CDATA[Mac mini 搭建外网可访问的简易 NAS]]>
+        </title>
+        <description>
+          <![CDATA[一般情况下我都是把影视资源放在网盘上, 第一是网盘空间大, 第二是随时随地可以观看(手机/平板/电脑).  前两个月「爱死机」出了第三季, 于是下载并放到网盘上打算晚点看. 当我忙完打开网盘想观看时, 发现被标注成「违规文件」无法观看, 也无法下载.  加上之前了解过 NAS, 所以想自己搞一个 N...]]>
+        </description>
+        <link>https://cyzyzg.github.io//remote_accessible_nas_by_mac_mini</link>
+        <guid isPermaLink="false">remote_accessible_nas_by_mac_mini</guid>
+        <pubDate>2022-08-08T00:00:00.000Z</pubDate>
+      </item>
+    
+      <item>
+        <title>
+          <![CDATA[使用脚本备份 Github 仓库]]>
+        </title>
+        <description>
+          <![CDATA[最近看到了几篇关于被 Github 被封号的帖子, 当然帖子说的不一定是真的, 也有可能是这些账号真的违反了 Github 政策. 不过俄乌战争闹得沸沸扬扬, Github 也有考虑对俄罗斯开发者进行限制, 无独有偶, 几年前 Github 就曾将伊朗的开发者账号封禁, 导致他们无法登录账号和访问代...]]>
+        </description>
+        <link>https://cyzyzg.github.io//use_script_to_backup_github_repository</link>
+        <guid isPermaLink="false">use_script_to_backup_github_repository</guid>
+        <pubDate>2022-03-06T00:00:00.000Z</pubDate>
+      </item>
+    
+      <item>
+        <title>
+          <![CDATA[我的博客架构变迁之路]]>
+        </title>
+        <description>
+          <![CDATA[在大三的时候, 我创建了自己的博客, 跟大部分人一样, 创建博客不外乎这几个原因:  1. 作为一个程序员, 拥有博客是标配, 可以对外展示自己 1. 作为学习的记录, 总结一些技术或者经验进行分享 1. 能够体验到一个项目开发部署运维的全过程 1. 炫技(作为一个菜逼程序员, 目前还没有值得炫耀的...]]>
+        </description>
+        <link>https://cyzyzg.github.io//migration_of_my_blog_structure</link>
+        <guid isPermaLink="false">migration_of_my_blog_structure</guid>
+        <pubDate>2021-05-10T00:00:00.000Z</pubDate>
+      </item>
+    
+      <item>
+        <title>
+          <![CDATA[图像处理100问]]>
+        </title>
+        <description>
+          <![CDATA[### 1.通道交换  cv2.imread( ) 读入的图片系数是按{BGR}顺序排列的  ```python import cv2 img = cv2.imread(&#34;imori.jpg&#34;) red = img[:, :, 2].copy()  #取出红色通道 ```  ```python # ...]]>
+        </description>
+        <link>https://cyzyzg.github.io//ImageProcessing100Wen</link>
+        <guid isPermaLink="false">ImageProcessing100Wen</guid>
+        <pubDate>2020-10-01T00:00:00.000Z</pubDate>
+      </item>
+    
+  </channel>
+</rss>
